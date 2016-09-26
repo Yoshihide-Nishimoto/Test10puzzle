@@ -24,6 +24,7 @@ class ViewController: UIViewController,UITextFieldDelegate {
     
     @IBOutlet weak var result: UILabel!
 
+    //チェックボタンを押した時
     @IBAction func check(sender: AnyObject) {
         let num1:Int! = Int(input1.text!)
         let num2:Int! = Int(input2.text!)
